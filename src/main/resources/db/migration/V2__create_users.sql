@@ -8,10 +8,10 @@ CREATE TABLE users_group (
 
 INSERT INTO users_group (username, password, roles, enabled)
 VALUES ('user',
-        '{noop}jdbcDefault',
+        '$2y$12$ZYujM3DLaZyevfmcyj6/p.17ythVihXPD8RqWyDctS.kUVNPltOaq',
         'USER', true);
 
 INSERT INTO users_group (username, password, roles, enabled)
 VALUES ('admin',
-        '{noop}admin',
+        '$2y$12$Hm/4g8ArqaNgK3TqB0qUE.XodM/4zogJCCeMFWwqifWAQ3z5pvsku',
         'ADMIN', true);
